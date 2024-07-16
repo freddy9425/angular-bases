@@ -11,12 +11,12 @@ import {HeroComponent} from "./components/hero/hero.component";
     HeroComponent,
     ListComponent
   ],
+  imports:[
+    CommonModule
+  ],
   exports: [
     HeroComponent,
     ListComponent,
   ],
-  imports:[
-    CommonModule
-  ]
 })
 export class HeroesModule {}
